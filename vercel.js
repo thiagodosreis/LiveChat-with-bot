@@ -5,10 +5,10 @@ import crypto from 'crypto';
 
 // Modify those according to your own environment settings.
 // Note that client_id & client_secret must match the bot application
-const client_id = "ZDAwZWU2M2I"
-const client_secret = "ZTY4ZTY3Nzc"
-const org_id = "PTg4GLbEsn34kiXimDNPY08"
-const domain = "vercel.grouphour.com"
+const client_id = "NzA0OTJjMjU"
+const client_secret = "NTY0MTljODc"
+const org_id = "PWOIjooqvlS6cWgmyVjhbQE"
+const domain = "kasisto-fis-dev.moxo.com"
 
 let binderId
 
