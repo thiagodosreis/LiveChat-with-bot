@@ -12,6 +12,9 @@ const domain = "kasisto-fis-dev.moxo.com"
 
 let binderId
 
+res.status(200).json({ name: 'John Doe' })
+res.setHeader('Content-Type', 'text/html').status(200).send("Request received: " + JSON.stringify(req.body))
+
 // Get access token for the bot
 // Refer to https://devmep.grouphour.com/docs/mep/bot-sdk/
 const getBotToken = async () => { 
@@ -182,8 +185,7 @@ try{
 
    
   
-  //res.status(200).json({ name: 'John Doe' })
-  //res.setHeader('Content-Type', 'text/html').status(200).send("Request received: " + JSON.stringify(req.body))
+  
   
 }
 
